@@ -10,11 +10,11 @@ Autor Aleksey Dargunov (dragun83@gamil.com)
 
 ## Installation
 
-1. Check your Python instllation path and correct * *syslog_sender.py* * string * *#!/bin/python3* * string if need.
+1. Check your Python instllation path and correct *syslog_sender.py*  string  *#!/bin/python3* string if need.
 
-2. Put * *syslog_sender* * to * */usr/local/bin* *
+2. Put *syslog_sender* to */usr/local/bin*
 
-3. Create systemctl service * *sudo systemctl edit --full syslog_sender.service* *
+3. Create systemctl service *sudo systemctl edit --full syslog_sender.service*
 
 4. Put the code below in it.
 ```
