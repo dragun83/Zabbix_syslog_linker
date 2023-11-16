@@ -1,8 +1,8 @@
-#SYSLOG COLLECTOR FOR ZABBIX
+# SYSLOG COLLECTOR FOR ZABBIX
 
 Autor Aleksey Dargunov (dragun83@gamil.com)
 
-##Reqirenments
+## Reqirenments
 
 1. Python3.x
 2. PyZabbix library
@@ -40,4 +40,4 @@ WantedBy=multi-user.target
 
 8. Create **host** and attache **Syslog** template to it. IP address is the key to identificate syslog source. [manual](https://www.zabbix.com/documentation/current/en/manual/config/hosts/host)
 
-Now in "Las data" you can see syslog messages.
+Now in "Last data" you can see syslog messages.
